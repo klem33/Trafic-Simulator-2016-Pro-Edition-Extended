@@ -7,12 +7,12 @@ public class CameraController : MonoBehaviour {
 
     private Vector3 offset;
 
-    private Vector3 offsetRot;
+    //private Vector3 offsetRot;
 
     void Start()
     {
         offset = transform.position - Car.transform.position;
-        offsetRot = transform.eulerAngles - Car.transform.eulerAngles;
+        //offsetRot = transform.eulerAngles - Car.transform.eulerAngles;
     }
 
     void LateUpdate()
